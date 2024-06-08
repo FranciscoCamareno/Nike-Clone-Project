@@ -1,0 +1,157 @@
+/* nav */ 
+
+header{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    }
+
+    nav{
+        height: 80px;
+        display: flex;
+        flex-direction: row;
+        
+    }
+
+    .nav-categories{
+        margin-left: -1px;
+        margin-right: -1px;
+        padding-top: 100%;
+        padding-bottom: 26px;
+        padding-right: 17px;
+        padding-left: 17px;
+        transition: 0.3s;
+    }
+
+    .nav-logo{
+        margin-left: 10px;
+        width: 80px;
+    }
+
+    .left-section{
+        align-content: center;
+        align-self: center;
+        flex: 1;
+        padding-left: 22px;
+    }
+
+    .right-section{
+        align-content: center;
+        flex: 1;
+        
+    }
+
+    .nav-options{
+        padding-left: 470px;
+    }
+
+    /* body */ 
+    
+    main{
+        top: 0px;
+        bottom: 0px;
+        right: 0px;
+        left: 0px;
+        padding-left: 65px;
+        padding-right:10px;
+        margin-top: 90px;
+        margin-left: 210px;
+        display: grid;
+        grid-template-columns: 400px 400px 400px;
+        column-gap: 1px;
+        row-gap: 20px;
+    }
+    
+    aside{
+        position: fixed;
+        left: 0px;
+        bottom: 0px;
+        top: 0px;
+        margin-top: 80px;
+        width: 250px;
+    }
+
+    article{
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr;
+        margin: 5px 5px 0px 35px;
+        height: 400px;
+        
+    }
+
+    .product-info{
+        margin: 0;
+    }
+
+    .product-name{
+        margin: 0;
+        margin-top: 1px;
+        margin-bottom: 3px;
+        padding-left: 5px;
+    }
+
+    .product-price{
+        margin: 0;
+        padding-left: 5px;
+    }
+
+    .product-figure{
+        margin: 0;
+        width: 200px;     
+    }
+
+    .product-img{
+        width: 320px;
+    }
+
+
+    aside{
+        padding-top: 10px;
+        padding-left: 35px; 
+    }
+
+
+    /* index */ 
+
+
+    .index-img{
+        width: 950px;
+    }
+
+    .index-div{     
+        margin-left: 17%;
+        margin-right: 20%;
+        margin-top: 6%;
+        width: 700px;     
+    }    
+
+    .index-body{
+        margin: 0;
+    }
+
+    footer{
+        display: flex;
+        position: relative;
+        margin-top: 200px;
+        bottom: 0px;
+        left: 0px;
+        right: 0px;
+        height: 80px;
+        
+    }
+
+    .div-media{
+        width: 100px;
+        margin-left: 1150px;
+        align-content: center;
+        align-items: end;
+    }
+
+    .watermark{
+        margin-top: 10px;
+        margin-left: 30px;
+    }

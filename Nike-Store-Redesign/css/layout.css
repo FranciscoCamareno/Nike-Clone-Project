@@ -18,10 +18,8 @@ header{
     }
 
     .nav-categories{
-        margin-left: -1px;
-        margin-right: -1px;
         padding-top: 100%;
-        padding-bottom: 26px;
+        padding-bottom: 23px;
         padding-right: 17px;
         padding-left: 17px;
         transition: 0.3s;
@@ -29,7 +27,7 @@ header{
 
     .nav-logo{
         margin-left: 10px;
-        width: 80px;
+        width: 90px;
     }
 
     .left-section{
@@ -41,12 +39,12 @@ header{
 
     .right-section{
         align-content: center;
-        flex: 1;
-        
+        margin-right: 2.5%;
     }
 
     .nav-options{
-        padding-left: 470px;
+        display: inline-block;
+        padding: 0;
     }
 
     /* body */ 
@@ -59,9 +57,9 @@ header{
         padding-left: 65px;
         padding-right:10px;
         margin-top: 90px;
-        margin-left: 210px;
+        margin-left: 225px;
         display: grid;
-        grid-template-columns: 400px 400px 400px;
+        grid-template-columns: 400px 400px 400px 400px;
         column-gap: 1px;
         row-gap: 20px;
     }
@@ -119,11 +117,11 @@ header{
 
 
     .index-img{
-        width: 950px;
+        width: 1100px;
     }
 
     .index-div{     
-        margin-left: 17%;
+        margin-left: 20%;
         margin-right: 20%;
         margin-top: 6%;
         width: 700px;     
@@ -136,7 +134,7 @@ header{
     footer{
         display: flex;
         position: relative;
-        margin-top: 200px;
+        margin-top: 100px;
         bottom: 0px;
         left: 0px;
         right: 0px;
@@ -145,13 +143,18 @@ header{
     }
 
     .div-media{
-        width: 100px;
-        margin-left: 1150px;
-        align-content: center;
-        align-items: end;
+        display: flex;
+        margin-right: 3%;
+        padding-top: 4px;
+        align-items: center;
     }
 
     .watermark{
+        flex: 1;
         margin-top: 10px;
         margin-left: 30px;
+    }
+
+    .instagram{
+        margin-right: 25px;
     }

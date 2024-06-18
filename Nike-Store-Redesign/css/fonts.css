@@ -4,9 +4,13 @@ h1, h2, h3, h4, .add-btn, input, label, .social-media{
 
 .nav-categories, .nav-butons{
     font-family: "Bebas Neue", sans-serif;
-    font-size: 22px;
+    font-size: 27px;
     text-decoration: none;
-    color: black;
+    color: #000000;
+}
+
+.product-price{
+    color: #5b5b5b;
 }
 
 label, input{
@@ -15,9 +19,11 @@ label, input{
 
 .social-media{
     text-decoration: none;
-    color: white;
+    font-size: 22px;
+    color: #ffffff;
 }
 
 .watermark{
-    color: white;
+    font-size: 15px;
+    color: #ffffff;
 }
